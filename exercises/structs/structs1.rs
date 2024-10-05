@@ -25,7 +25,6 @@ mod tests {
 
     #[test]
     fn classic_c_structs() {
-
         let green = ColorClassicStruct{red: 0,green: 255, blue: 0};
 
         assert_eq!(green.red, 0);
